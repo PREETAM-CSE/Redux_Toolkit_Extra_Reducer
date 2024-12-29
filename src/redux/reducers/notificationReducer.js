@@ -35,4 +35,4 @@ export const notificationReducer = notificationSlice.reducer;
 
 export const resetNotification = notificationSlice.actions.reset;
 
-export const notificationSelector = (state)=>state.notificationReducer.message
+export const notificationSelector = (state)=>state.notificationReducer.message;
